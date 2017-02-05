@@ -1,0 +1,349 @@
+.background-black {
+	background-color: #000000;
+}
+.logo-dimensions {
+	width : 50px;
+	height: 50px;
+}
+.text-bold {
+	font-weight: 700;
+}
+.text-white {
+	color: #FFFFFF;
+}
+.text-black {
+	color: #000000;
+}
+.text-red {
+	color: #db6a57;
+}
+.text-grey {
+	color: #ddd;
+}
+.text-normal {
+	font-weight : 100;
+}
+.text-align-left {
+	text-align: left !important;
+}
+.text-align-right {
+	text-align: right !important;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.padding-top-15 {
+	padding-top: 15px;
+}
+.vertical-align-bottom {
+	vertical-align: bottom;
+}
+.margin-1 {
+	margin: 1%;
+}
+.margin-left-3 {
+	margin-left: 3%;
+}
+.margin-right-10 {
+	margin-right: 10px;
+}
+.margin-right-1 {
+	margin-right : 1%;
+}
+.margin-top-15 {
+	margin-top: 15px;
+}
+.margin-left-neg-15 {
+	margin-left: -15px;
+}
+.padding-left-0 {
+	padding-left : 0px;
+}
+.padding-left-10 {
+	padding-left: 10px;
+}
+.padding-right-0 {
+	padding-right: 0px;
+}
+.padding-right-2 {
+	padding-right: 2px;
+}
+.padding-right-18 {
+	padding-right: 18px;
+}
+.padding-left-24 {
+	padding-left: 24px;
+}
+.padding-2 {
+	padding: 2%;
+}
+.padding-1 {
+	padding: 1% 1% 1% 0%;
+}
+.padding-1-2 {
+	padding: 1% 2%
+}
+.padding-top-1 {
+	padding-top: 1%;
+}
+.top-30 {
+	top: 30px;
+}
+.display-inline-block {
+	display: inline-block;
+}
+.badge {
+	background-color: #1dadf5;
+	border-radius: 0px;
+	padding-top: 3px;
+}
+.filter-container label {
+	font-size: 13px;
+}
+.image-container {
+	width :3%;
+}
+.username {
+	font-size: 12px;
+	font-weight: 100;
+}
+/*customizing styling of left panel */
+.panel {
+	border-radius : 0px;
+}
+.panel-body {
+	padding: 0px;
+}
+.side-navbar {
+	padding-left : 0px;
+	background-color : #f5f5f5;
+	padding-bottom: 720px;
+	overflow: hidden;
+	border-right: 1px solid #ddd;
+}
+.side-navbar .panel-default {
+	border-right: none;
+}
+.panel-title a, .users-options a {
+	text-decoration: none;
+	color: #000000;
+}
+.users-options tbody tr td {
+	padding-left: 16%;
+}
+.panel-default>.panel-heading {
+	border: none;
+}
+.side-navbar .panel-default:last-child {
+	border-bottom: none;
+	box-shadow: none;
+}
+/*end customizing left panel*/
+.filter-container, .overview-container, .additonal-filter-container,.middle-container,.footer-container {
+	padding: 0 11% 0 5%;
+}
+.tag-container {
+	top: 20px;
+}
+.search-filter, .column-filter, .filter-action {
+	background-color : #f8f8f8;
+	border: 1px solid #c5c5c5;
+	padding-left: 25px;
+}
+.column-filter {
+	padding-bottom: 2%;
+}
+.column-filter, .filter-action {
+	border-top: none;
+}
+/* customization of select */
+.btn-grey {
+	background-color: #fcfcfc;
+	border: 1px solid #c5c5c5;
+}
+.dropdown-menu {
+	margin: 0px;
+	border-top: none;
+}
+.btn, .dropdown-menu {
+	border-radius : 2px;
+}
+/*customize buttons */
+.btn-primary, .btn-primary:hover {
+	background-color: #2baef2;
+	border-color: #1697c5;
+	outline: none;
+	text-decoration: none;
+}
+.btn-cancel {
+	color : #db6a57;
+	box-shadow: none !important;
+}
+.btn-cancel:hover {
+	color: #db6a57;
+}
+.btn-success, .btn-success:hover {
+	background-color: #9ecc41;
+	border-color: #78a81e;
+	text-decoration: none;
+}
+.btn-white {
+	background-color : #FFFFFF;
+}
+.btn-padding {
+	padding : 1% 1.75%;
+}
+.select-medium .bootstrap-select, .select-medium .dropdown-menu {
+	width : 155px !important;
+}
+/*verically align checkboxes*/
+label input[type=checkbox]{
+    position: relative;
+    vertical-align: middle;
+    bottom: 1px;
+	margin-top: 1px;
+}
+/*customizing table*/
+.users-overview {
+	width: 91.6%;
+	margin-bottom: 0px;
+}
+.user-image {
+	height: 35px;
+    width: 35px;
+    margin-top: -8px	
+}
+.table-bordered {
+	border: 1px solid #c5c5c5;
+}
+.table-bordered>thead>tr>th {
+	background-color:  #f5f5f5;
+	border: none ;
+	text-align: center;
+}
+.table-bordered>tbody>tr>td {
+	text-align: center;
+}
+.table-bordered .glyphicon-triangle-bottom {
+	font-size: 10px;
+	top: 2px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #fafafa;
+}
+/*flip glyphicon*/
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+/*customize glyphicon*/
+.glyphicon-envelope , .glyphicon-share-alt {
+	font-size: 10px;
+}
+.glyphicon-folder-open {
+	float: right;
+    padding-top: 2%
+}
+.glyphicon-refresh {
+	top: 3px;
+}
+.glyphicon-remove {
+	font-size: 10px;
+	padding-right: 4px;
+}
+.row-selected {
+	background-color: #ebf8fe !important;
+}
+/*customize datepicker*/
+.date>.form-control {
+	border-radius: 1px;
+	border-right: none;
+}
+.date>.input-group-addon {
+	background-color: #FFFFFF;
+	border-radius: 1px;
+	border-left: none;
+	font-size: 10px;
+}
+.date>.form-control:focus {
+	outline: none;
+}
+.margin-bottom-0 , .form-group, .filter-datepicker .form-group, .panel-default, .users-options {
+	margin-bottom: 0px;
+}
+.datepicker-dropdown:before {
+	content: none;
+}
+.btn-danger, .btn-danger:hover {
+	background-color : #e0745f;
+	color: #ab4630;
+	border-radius: 2px;
+}
+/*customize multiselect box*/
+.dropdown-header {
+	font-size: 14px;
+	color: #000000;
+	font-weight: 700;
+}
+/* customize pagination*/
+.pagination>li>a , .pagination>li>a:hover {
+	color: #1dadf5;
+}
+.text-link, .text-link:hover,.btn-group-sm>.btn {
+	color: #2baef2;
+	border:none;
+	background-color: #FFFFFF;
+	text-align: left;
+	font-size: 14px;
+	box-shadow: none;
+	outline: none;
+}
+.text-link:hover {
+	font-size: 14px;
+	text-decoration:underline;	
+	box-shadow: none;
+ }
+.custom-link, .custom-link:hover {
+	color: #000000;
+	text-decoration: none;
+	margin-right: 2%;
+}
+.error_message {
+	color: #d9534f;
+	font-size: 12px;
+	padding-top: 1%;
+}
+.first-tag {
+	margin: 1% 1% 1% 0;
+}
+.content {
+	margin: 20px -4px;
+}
+.content .bootstrap-select, .content .bootstrap-select .dropdown-menu {
+	width: 86px !important;
+	margin-right: -4px !important;
+}
+/*animation*/
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -ms-animation: spin .7s infinite linear;
+    -webkit-animation: spinw .7s infinite linear;
+    -moz-animation: spinm .7s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+  
+@-webkit-keyframes spinw {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spinm {
+    from { -moz-transform: rotate(0deg);}
+    to { -moz-transform: rotate(360deg);}
+}

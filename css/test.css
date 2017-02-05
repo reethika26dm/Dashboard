@@ -1,0 +1,281 @@
+.background-black {
+	background-color: #000000;
+}
+.logo-dimensions {
+	width : 50px;
+	height: 50px;
+}
+.text-bold {
+	font-weight: 700;
+}
+.text-white {
+	color: #FFFFFF;
+}
+.text-black {
+	color: #000000;
+}
+.text-red {
+	color: red;
+}
+.text-normal {
+	font-weight : 100;
+}
+.text-align-left {
+	text-align: left !important;
+}
+.text-align-right {
+	text-align: right;
+}
+.padding-top-15 {
+	padding-top: 15px;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.tag {
+	margin: 8px;
+}
+
+.vertical-align-bottom {
+	vertical-align: bottom;
+}
+.margin-right-10 {
+	margin-right: 10px;
+}
+.margin-right-1 {
+	margin-right : 1%;
+}
+.margin-top-15 {
+	margin-top: 15px;
+}
+.margin-left-neg-15{
+	margin-left: -15px;
+}
+.margin-1 {
+	margin: 1%;
+}
+.margin-left-3 {
+	margin-left: 3%;
+}
+.padding-left-0 {
+	padding-left : 0px;
+}
+.padding-right-0 {
+	padding-right: 0px;
+}
+.padding-right-18 {
+	padding-right: 18px;
+}
+.padding-left-24 {
+	padding-left: 24px;
+}
+.padding-right-2 {
+	padding-right: 2px;
+}
+.padding-2 {
+	padding: 2%;
+}
+.padding-1-2 {
+	padding: 1% 2%
+}
+.padding-1 {
+	padding: 1%;
+}
+.padding-top-1 {
+	padding-top: 1%;
+}
+.top-30 {
+	top: 30px;
+}
+.badge {
+	background-color: #4dbbf2;
+	border-radius: 0px;
+	padding-top: 3px;
+}
+.filter-container label {
+	font-size: 12px;
+}
+.username {
+	font-size: 12px;
+	font-weight: 100;
+}
+/*flip glyphicon*/
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+/*customizing styling of left panel */
+.panel {
+	border-radius : 0px;
+}
+.panel-body {
+	padding: 0px;
+}
+
+.side-navbar {
+	padding-left :0px;
+	background-color : #f5f5f5;
+	padding-bottom:599px;
+	overflow: hidden;
+}
+.panel-title a, .users-options a {
+	text-decoration: none;
+}
+.users-options tbody tr td {
+	padding-left: 16%
+}
+/*end customizing left panel*/
+.filter-container, .overview-container, .additonal-filter-container,.middle-container,.footer-container {
+	padding: 0 11% 0 5%;
+}
+.tag-container {
+	top: 20px;
+}
+.search-filter, .column-filter, .filter-action{
+	background-color : #f5f5f5;
+	border: 1px solid #ddd;
+}
+.column-filter {
+	padding-bottom: 2%;
+}
+/* customization of select */
+.btn-grey {
+	background-color:  #f5f5f5;
+	border: 1px solid #ddd;
+}
+.dropdown-menu {
+	margin: 0px;
+	border-top:none;
+}
+.btn , .dropdown-menu {
+	border-radius : 2px;
+}
+/*customize buttons */
+.btn-primary, .btn-primary:hover {
+	background-color: #4dbbf2;
+}
+
+.btn-cancel {
+	color : red;
+	box-shadow: none !important;
+}
+
+.btn-cancel:hover {
+	color: red;
+}
+.btn-success:hover {
+	background-color:#5cb85c;
+	text-decoration: none;
+}
+/*verically align checkboxes*/
+label input[type=checkbox]{
+    position: relative;
+    vertical-align: middle;
+    bottom: 1px;
+	margin-top: 1px;
+}
+/*customizing table*/
+.users-overview {
+	width: 91.6%;
+	margin-bottom: 0px;
+}
+.table-bordered>thead>tr>th {
+	background-color:  #f5f5f5;
+	border: none ;
+	text-align: center;
+}
+.table-bordered>tbody>tr>td {
+	text-align: center;
+}
+.table-bordered .glyphicon-triangle-bottom {
+	font-size: 10px;
+	top: 2px;
+}
+.glyphicon-envelope , .glyphicon-share-alt{
+	font-size: 10px;
+}
+.user-image {
+	height: 35px;
+    width: 35px;
+    margin-top: -8px
+}
+.glyphicon-folder-open {
+	float: right;
+    padding-top: 2%
+}
+.custom-link, .custom-link:hover {
+	color: #000000;
+	text-decoration: none;
+	margin-right: 2%;
+}
+.row-selected {
+	background-color: #c3f4f7 !important;
+}
+.select-medium .bootstrap-select, .select-medium .dropdown-menu {
+	width : 155px !important;
+}
+.glyphicon-refresh {
+	top: 3px;
+}
+
+/*customize datepicker*/
+.date>.form-control {
+	border-radius: 1px;
+	border-right: none;
+}
+.date>.input-group-addon {
+	background-color: #FFFFFF;
+	border-radius: 1px;
+	border-left: none;
+	font-size: 10px;
+}
+.date>.form-control:focus {
+	outline: none;
+	
+}
+.filter-datepicker .form-group, .panel-default, .users-options {
+	margin-bottom: 0px;
+}
+.datepicker-dropdown:before {
+	content: none;
+}
+.btn-danger:hover {
+	background-color : #d9534f;
+	color: #000000;
+	border-radius: 2px;
+}
+/*customize multiselect box*/
+.text-link, .text-link:hover {
+	color: blue;
+	border:none;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+.error_message {
+	color: #d9534f;
+	font-size: 12px;
+	
+}
+.glyphicon-remove {
+	font-size: 10px;
+	padding-right: 4px;
+}
+.first-tag {
+	margin: 1% 1% 1% 0;
+}
+.display-inline-block {
+	display: inline-block;
+}
+
+.content {
+	margin: 20px 0;
+}
+.content .bootstrap-select, .content .bootstrap-select .dropdown-menu {
+	width: 86px !important;
+	margin-right: -4px !important;
+}
+.image-container {
+	width :3%;
+}
