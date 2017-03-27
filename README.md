@@ -28,7 +28,7 @@
 3. Responsive 
 4. Closely matches the required design 
 
-<h4>Deviations from assignment</h4>
+<h4>Deviations</h4>
 1. Used default bootstrap datepicker
 2. Used default bootstrap pagination
 3. Used CSS instead of SASS (need to aquire practical knowledge of SASS)
